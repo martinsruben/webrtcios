@@ -1,0 +1,24 @@
+PODS:
+  - Socket.IO-Client-Swift (13.3.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.5)
+  - WebRTC (63.11.20455)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift
+  - WebRTC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Socket.IO-Client-Swift
+    - Starscream
+    - WebRTC
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: 0afb192a562db90d50e3f7f7421c06925a3f0179
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  WebRTC: f2a6203584745fe53532633397557876b5d71640
+
+PODFILE CHECKSUM: 0ea143a1a6da275ff24fc52a611c76f99ff57fbc
+
+COCOAPODS: 1.5.3
