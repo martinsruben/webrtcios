@@ -10,6 +10,7 @@ import Foundation
 import WebRTC
 
 class StreamEng: NSObject {
+    static let sharedInstance = StreamEng()
     
     override init() {
         super.init()

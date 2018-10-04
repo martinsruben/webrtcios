@@ -8,5 +8,6 @@ target 'RoomsForHumanity' do
   # Pods for RoomsForHumanity
   pod "WebRTC"
   pod "Socket.IO-Client-Swift"
+  pod 'SwiftyJSON', '~> 4.0'
 
 end
