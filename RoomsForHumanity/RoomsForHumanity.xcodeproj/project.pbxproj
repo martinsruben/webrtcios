@@ -14,7 +14,8 @@
 		7488F13D2155B04C0031040B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7488F13C2155B04C0031040B /* Assets.xcassets */; };
 		7488F1402155B04C0031040B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7488F13E2155B04C0031040B /* LaunchScreen.storyboard */; };
 		7488F14A2155B7DC0031040B /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488F1492155B7DC0031040B /* VideoChatViewController.swift */; };
-		7488F14D2155B8D80031040B /* WebRTCFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488F14C2155B8D80031040B /* WebRTCFunctions.swift */; };
+		748FC7B72163D0B9007B69A4 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748FC7B62163D0B9007B69A4 /* SocketIOManager.swift */; };
+		748FC7B92164FCF0007B69A4 /* StreamEng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748FC7B82164FCF0007B69A4 /* StreamEng.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		7488F13F2155B04C0031040B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7488F1412155B04C0031040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7488F1492155B7DC0031040B /* VideoChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
-		7488F14C2155B8D80031040B /* WebRTCFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCFunctions.swift; sourceTree = "<group>"; };
+		748FC7B62163D0B9007B69A4 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		748FC7B82164FCF0007B69A4 /* StreamEng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamEng.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,8 @@
 		7488F14B2155B88F0031040B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7488F14C2155B8D80031040B /* WebRTCFunctions.swift */,
+				748FC7B62163D0B9007B69A4 /* SocketIOManager.swift */,
+				748FC7B82164FCF0007B69A4 /* StreamEng.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,8 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7488F14D2155B8D80031040B /* WebRTCFunctions.swift in Sources */,
+				748FC7B72163D0B9007B69A4 /* SocketIOManager.swift in Sources */,
 				7488F1382155B0490031040B /* ViewController.swift in Sources */,
+				748FC7B92164FCF0007B69A4 /* StreamEng.swift in Sources */,
 				7488F1362155B0490031040B /* AppDelegate.swift in Sources */,
 				7488F14A2155B7DC0031040B /* VideoChatViewController.swift in Sources */,
 			);
