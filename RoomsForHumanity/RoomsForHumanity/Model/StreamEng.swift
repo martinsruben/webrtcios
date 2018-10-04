@@ -12,7 +12,18 @@ import WebRTC
 class StreamEng: NSObject {
     static let sharedInstance = StreamEng()
     
+//    var videoCapturer: RTCVideoCapturer
+//    var constraints: RTCMediaConstraints
+//    var localStream: RTCMediaStream
+//    var videoSource: RTCVideoSource
+//    var videoTrack: RTCVideoTrack
+    
+    
     override init() {
         super.init()
+    }
+    
+    func captureCameraStream() {
+        
     }
 }

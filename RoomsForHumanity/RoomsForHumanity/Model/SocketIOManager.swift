@@ -34,6 +34,12 @@ class SocketIOManager: NSObject {
         print("Disconnected from Socket")
     }
     
+    func subscribeToRoom(roomName: String, userID: String) {
+        self.socket.emit("subscribe rooms", userID, roomName)
+    }
+    
+    
+    
     func createUserID() -> String {
         // Creates a random userID of 16 characters and returns the random userID
         
