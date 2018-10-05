@@ -23,7 +23,5 @@ class StreamEng: NSObject {
         super.init()
     }
     
-    func captureCameraStream() {
-        
-    }
+    
 }

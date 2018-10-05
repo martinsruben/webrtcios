@@ -34,9 +34,19 @@ class SocketIOManager: NSObject {
         print("Disconnected from Socket")
     }
     
-    func subscribeToRoom(roomName: String, userID: String) {
-        self.socket.emit("subscribe rooms", userID, roomName)
+    func publish(userID: String, roomName: String) {
+        self.socket.emit("publish", userID, roomName)
+        print("Ran publish function")
     }
+    
+    func subscribe(userID: String, roomName: String) {
+        self.socket.emit("subscribe rooms", userID, roomName)
+        
+        self.socket.on("subscriber ready") {data, ack in print("\(data[0])")}
+    }
+    
+
+
     
     
     
